@@ -1,33 +1,64 @@
+/* Universal Styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+body {
+  background: rgb(139, 77, 77);
+}
+
+button {
+  margin-right: 5.2px;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: none;
+  transition: all ease 0.3s;
+  outline: none;
+}
+
+button:hover {
+  background: #0dc726;
+  color: rgb(28, 206, 238);
+  cursor: pointer;
+}
+.selectOption {
+  border-radius: 12px;
+  border: none;
+  padding: 7px;
+  background: #645252;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.users {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.errors {
+  color: red;
+  margin-bottom: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+  border-radius: 25px;
+  border: none;
+  padding: 9px;
+  background: #0c0c0c;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
