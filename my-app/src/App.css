@@ -1,0 +1,67 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+body {
+  background: url(https://img.freepik.com/free-vector/blue-abstract-acrylic-brush-stroke-textured-background_53876-86373.jpg?size=626&ext=jpg);
+  background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+  margin-right: 5.2px;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: none;
+  transition: all ease 0.3s;
+  outline: none;
+}
+
+button:hover {
+  background: #0dc726;
+  color: rgb(28, 206, 238);
+  cursor: pointer;
+}
+.selectOption {
+  border-radius: 12px;
+  border: none;
+  padding: 7px;
+  background: #645252;
+  box-shadow: 0px 2px 4px whitesmoke;
+  outline: none;
+}
+
+.users {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.App {
+  text-align: center;
+}
+
+.errors {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+input {
+  border-radius: 25px;
+  border: none;
+  padding: 9px;
+  background: pink;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
